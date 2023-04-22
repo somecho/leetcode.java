@@ -3,8 +3,10 @@ package problems.palindromeNumber;
 public class Solution {
 	public boolean isPalindrome(int x) {
 		String y = String.valueOf(x);
-		for (int i = 0; i < y.length() / 2; i++) {
-			if (y.charAt(i) != y.charAt(y.length() - (i + 1))) {
+		int len = y.length();
+		int halfLen = len/2;
+		for (int i = 0; i < halfLen; i++) {
+			if (y.charAt(i) != y.charAt(len - (i + 1))) {
 				return false;
 			}
 		}
