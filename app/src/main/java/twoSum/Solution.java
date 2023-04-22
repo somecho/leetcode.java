@@ -1,4 +1,4 @@
-package problems.twosum;
+package twoSum;
 
 import java.util.Arrays;
 
@@ -17,8 +17,6 @@ public class Solution {
 			}
 		}
 		Arrays.sort(result);
-		System.out.println(result[0]);
-		System.out.println(result[1]);
 		return result;
 	}
 }
