@@ -1,14 +1,11 @@
 package validParentheses;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.ArrayList;
 import java.util.Map;
-import java.util.Stack;
 
 public class Solution {
-	List<Character> openChars = Arrays.asList('(', '[', '{');
 	Map<Character, Character> match = Map.of(')', '(', ']', '[', '}', '{');
-	Stack<Character> openings = new Stack<Character>();
+	ArrayList<Character> track = new ArrayList<Character>();
 
 	public boolean isValid(String s) {
 		if (s.length() % 2 == 1) {
@@ -17,23 +14,23 @@ public class Solution {
 		boolean isValid = true;
 		for (int i = 0; i < s.length(); i++) {
 			char cur = s.charAt(i);
-			if (openChars.contains(cur)) {
-				openings.push(cur);
+			if (cur == '(' || cur == '[' || cur == '{') {
+				track.add(cur);
 				continue;
 			}
-			if (openings.empty()) {
+			if (track.isEmpty()) {
 				isValid = false;
 				break;
 			}
 			char validMatch = match.get(cur);
-			if (openings.peek() == validMatch) {
-				openings.pop();
+			if (track.get(track.size()-1) == validMatch) {
+				track.remove(track.size()-1);
 				continue;
 			}
 			isValid = false;
 			break;
 		}
-		if (!openings.empty()) {
+		if (!track.isEmpty()) {
 			isValid = false;
 		}
 		return isValid;
