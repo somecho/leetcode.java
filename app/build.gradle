@@ -36,6 +36,14 @@ application {
     mainClass = 'NULL'
 }
 
+test {
+	testLogging {
+		events "failed", "passed", "standardOut","standardError"
+		exceptionFormat "full"
+		showStandardStreams = true
+	}
+}
+
 tasks.named('test') {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
