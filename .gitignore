@@ -10,3 +10,5 @@ Session.vim
 app/.classpath
 .project
 app/.project
+.settings
+app/.settings
