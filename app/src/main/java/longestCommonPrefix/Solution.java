@@ -1,5 +1,8 @@
 package longestCommonPrefix;
 
+// 14. Longest Common Prefix
+// https://leetcode.com/problems/longest-common-prefix/
+
 public class Solution {
 	public String longestCommonPrefix(String[] strs) {
 		Boolean prefixFound = false;

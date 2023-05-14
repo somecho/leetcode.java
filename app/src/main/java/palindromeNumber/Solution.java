@@ -1,5 +1,8 @@
 package palindromeNumber;
 
+// 9. Palindrome Number
+// https://leetcode.com/problems/palindrome-number/
+
 public class Solution {
 	public boolean isPalindrome(int x) {
 		String y = String.valueOf(x);
