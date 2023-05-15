@@ -14,3 +14,4 @@ My solutions to leetcode problems using Java. For learning Java and unit testing
 | 27 | [Remove Element](app/src/main/java/removeElement/Solution.java) |
 | 28 | [Find the index of the first occurence in a string](app/src/main/java/firstOccurence/Solution.java) |
 | 35 | [Search Insert Position](app/src/main/java/searchInsert/Solution.java) |
+| 58 | [Length of Last Word](app/src/main/java/lengthLastWord/Solution.java) |
