@@ -16,3 +16,4 @@ My solutions to leetcode problems using Java. For learning Java and unit testing
 | 35 | [Search Insert Position](app/src/main/java/searchInsert/Solution.java) |
 | 58 | [Length of Last Word](app/src/main/java/lengthLastWord/Solution.java) |
 | 66 | [Plus One](app/src/main/java/plusOne/Solution.java) |
+| 67 | [Add Binary](app/src/main/java/addBinary/Solution.java) |
