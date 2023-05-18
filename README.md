@@ -17,4 +17,5 @@ My solutions to leetcode problems using Java. For learning Java and unit testing
 | 58 | [Length of Last Word](app/src/main/java/lengthLastWord/Solution.java) | easy |
 | 66 | [Plus One](app/src/main/java/plusOne/Solution.java) | easy |
 | 67 | [Add Binary](app/src/main/java/addBinary/Solution.java) | easy |
+| 69 | [Sqrt(x)](app/src/main/java/mySqrt/Solution.java) | easy |
 | 70 | [Climbing Stairs](app/src/main/java/climbingStairs/Solution.java) | easy |
