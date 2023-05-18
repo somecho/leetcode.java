@@ -6,8 +6,7 @@ package maximumWealth;
 import java.util.Arrays;
 
 class Solution {
-	// time complexity: O(n) + O(????)
-	// What is the time complexity of Java's stream.max?
+	// time complexity: O(n)
 	public static int maximumWealth(int[][] accounts) {
 		return Arrays.stream(accounts)
 				.map(customer -> Arrays.stream(customer).sum())
