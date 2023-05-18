@@ -19,3 +19,4 @@ My solutions to leetcode problems using Java. For learning Java and unit testing
 | 67 | [Add Binary](app/src/main/java/addBinary/Solution.java) | easy |
 | 69 | [Sqrt(x)](app/src/main/java/mySqrt/Solution.java) | easy |
 | 70 | [Climbing Stairs](app/src/main/java/climbingStairs/Solution.java) | easy |
+| 1480 | [Running Sum of 1d Array](app/src/main/java/runningSum/Solution.java) | easy |
