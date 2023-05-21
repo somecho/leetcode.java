@@ -22,6 +22,7 @@ My solutions to leetcode problems using Java. For learning Java and unit testing
 | 83 | [Remove Duplicates from Sorted List](app/src/main/java/removeDuplicatesSortedList/Solution.java) | easy |
 | 383 | [Ransom Note](app/src/main/java/ransomNote/Solution.java) | easy |
 | 412 | [FizzBuzz](app/src/main/java/fizzBuzz/Solution.java) | easy |
+| 509 | [FibonacciNumber](app/src/main/java/fibonacciNumber/Solution.java) | easy |
 | 876 | [Middle of the Linked List](app/src/main/java/middleNode/Solution.java) | easy |
 | 1342 | [Number of Steps to Reduce a Number to Zero](app/src/main/java/numberOfSteps/Solution.java) | easy |
 | 1480 | [Running Sum of 1d Array](app/src/main/java/runningSum/Solution.java) | easy |
