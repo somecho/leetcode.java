@@ -25,6 +25,7 @@ My solutions to leetcode problems using Java. For learning Java and unit testing
 | 383 | [Ransom Note](app/src/main/java/ransomNote/Solution.java) | easy |
 | 412 | [FizzBuzz](app/src/main/java/fizzBuzz/Solution.java) | easy |
 | 509 | [FibonacciNumber](app/src/main/java/fibonacciNumber/Solution.java) | easy |
+| 605 | [Can Place Flowers](app/src/main/java/canPlaceFlowers/Solution.java) | easy |
 | 740 | [Delete and Earn](app/src/main/java/deleteAndEarn/Solution.java) | medium |
 | 746 | [Min Cost Climbing Stairs](app/src/main/java/minCostClimbingStairs/Solution.java) | easy |
 | 876 | [Middle of the Linked List](app/src/main/java/middleNode/Solution.java) | easy |
