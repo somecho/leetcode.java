@@ -32,3 +32,4 @@ My solutions to leetcode problems using Java. For learning Java and unit testing
 | 1342 | [Number of Steps to Reduce a Number to Zero](app/src/main/java/numberOfSteps/Solution.java) | easy |
 | 1480 | [Running Sum of 1d Array](app/src/main/java/runningSum/Solution.java) | easy |
 | 1672 | [Richest Customer Wealth](app/src/main/java/maximumWealth/Solution.java) | easy |
+| 1768 | [Merge Strings Alternately](app/src/main/java/mergeStringsAlternately/Solution.java) | easy |
