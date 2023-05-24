@@ -28,6 +28,7 @@ My solutions to leetcode problems using Java. For learning Java and unit testing
 | 740 | [Delete and Earn](app/src/main/java/deleteAndEarn/Solution.java) | medium |
 | 746 | [Min Cost Climbing Stairs](app/src/main/java/minCostClimbingStairs/Solution.java) | easy |
 | 876 | [Middle of the Linked List](app/src/main/java/middleNode/Solution.java) | easy |
+| 1071 | [Greatest Common Divisor of Strings](app/src/main/java/greatestCommonDivisorStrings/Solution.java) | easy |
 | 1137 | [N-th Tribonacci Number](app/src/main/java/tribonacci/Solution.java) | easy |
 | 1342 | [Number of Steps to Reduce a Number to Zero](app/src/main/java/numberOfSteps/Solution.java) | easy |
 | 1480 | [Running Sum of 1d Array](app/src/main/java/runningSum/Solution.java) | easy |
