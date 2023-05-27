@@ -1,7 +1,6 @@
 package removeDuplicatesII;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static removeDuplicatesII.Solution.REMOVED;
 
 import org.junit.jupiter.api.Test;
 
@@ -18,14 +17,14 @@ class RemoveDuplicatesII {
 	@Test
 	void example1() {
 		int[] nums = new int[] { 1, 1, 1, 2, 2, 3 };
-		int[] expected = new int[] { 1, 1, 2, 2, 3, REMOVED };
+		int[] expected = new int[] { 1, 1, 2, 2, 3, 3 };
 		criteria(nums, expected, 5);
 	}
 
 	@Test
 	void example2() {
 		int[] nums = new int[] { 0, 0, 1, 1, 1, 1, 2, 3, 3 };
-		int[] expected = new int[] { 0, 0, 1, 1, 2, 3, 3, REMOVED, REMOVED };
+		int[] expected = new int[] { 0, 0, 1, 1, 2, 3, 3, 3, 3 };
 		criteria(nums, expected, 7);
 	}
 
@@ -46,14 +45,14 @@ class RemoveDuplicatesII {
 	@Test
 	void arrayN3B() {
 		int[] nums = new int[] { 1, 1, 1 };
-		int[] expected = new int[] { 1, 1, REMOVED };
+		int[] expected = new int[] { 1, 1, 1 };
 		criteria(nums, expected, 2);
 	}
 
 	@Test
 	void nonAdjaccentArray() {
 		int[] nums = new int[] { 0, 0, 0, 5, 5, 5, 9, 9, 9 };
-		int[] expected = new int[] { 0, 0, 5, 5, 9, 9, REMOVED, REMOVED, REMOVED };
+		int[] expected = new int[] { 0, 0, 5, 5, 9, 9, 9, 9, 9 };
 		criteria(nums, expected, 6);
 	}
 }
