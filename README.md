@@ -23,6 +23,7 @@ My solutions to leetcode problems using Java. For learning Java and unit testing
 | 83 | [Remove Duplicates from Sorted List](app/src/main/java/removeDuplicatesSortedList/Solution.java) | easy |
 | 88 | [Merge Sorted Array](app/src/main/java/mergeSortedArray/Solution.java) | easy |
 | 169 | [Majority Element](app/src/main/java/majorityElement/Solution.java) | easy |
+| 189 | [Rotate Array](app/src/main/java/rotateArray/Solution.java) | medium |
 | 198 | [House Robber](app/src/main/java/houseRobber/Solution.java) | medium |
 | 345 | [Reverse Vowels of a String](app/src/main/java/reverseVowels/Solution.java) | easy |
 | 383 | [Ransom Note](app/src/main/java/ransomNote/Solution.java) | easy |
