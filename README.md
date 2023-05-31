@@ -14,6 +14,7 @@ My solutions to leetcode problems using Java. For learning Java and unit testing
 | 27 | [Remove Element](app/src/main/java/removeElement/Solution.java) | easy |
 | 28 | [Find the index of the first occurence in a string](app/src/main/java/firstOccurence/Solution.java) | easy |
 | 35 | [Search Insert Position](app/src/main/java/searchInsert/Solution.java) | easy |
+| 55 | [Jump Game](app/src/main/java/jumpGame/Solution.java) | medium |
 | 58 | [Length of Last Word](app/src/main/java/lengthLastWord/Solution.java) | easy |
 | 66 | [Plus One](app/src/main/java/plusOne/Solution.java) | easy |
 | 67 | [Add Binary](app/src/main/java/addBinary/Solution.java) | easy |
