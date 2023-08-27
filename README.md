@@ -25,6 +25,7 @@ My solutions to leetcode problems using Java. For learning Java and unit testing
 | 83 | [Remove Duplicates from Sorted List](app/src/main/java/removeDuplicatesSortedList/Solution.java) | easy |
 | 88 | [Merge Sorted Array](app/src/main/java/mergeSortedArray/Solution.java) | easy |
 | 94 | [Binary Tree Inorder Reversal](app/src/main/java/binaryTreeInorderTraversal/Solution.java) | easy |
+| 100 | [Same Tree](app/src/main/java/sameTree/Solution.java) | easy |
 | 121 | [Best Time to Buy and Sell Stock](app/src/main/java/buySellStock/Solution.java) | easy |
 | 122 | [Best Time to Buy and Sell Stock II](app/src/main/java/buySellStockII/Solution.java) | medium |
 | 169 | [Majority Element](app/src/main/java/majorityElement/Solution.java) | easy |
